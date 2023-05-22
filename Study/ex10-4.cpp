@@ -8,11 +8,7 @@ int main() {
 	{
 		int x;
 		int y;
-	};
-
-	// 변수 2개 정의
-	Point pt1 = { 30,50 };
-	Point pt2;
+	} pt1 = { 30,50 }, pt2; // 구조체 Point의 정의와 변수 p1과 p2의 정의를 한 번에 하고 있다.
 
 	// pt1에 pt2에 대입
 	pt2 = pt1;
