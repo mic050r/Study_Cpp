@@ -54,5 +54,8 @@
     <ClCompile Include="ex11-5.cpp">
       <Filter>소스 파일\Brain_C++</Filter>
     </ClCompile>
+    <ClCompile Include="ex11-9.cpp">
+      <Filter>소스 파일\Brain_C++</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
