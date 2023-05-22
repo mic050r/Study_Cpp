@@ -11,8 +11,7 @@ struct StudentInfo
 
 int main() {
 	// StudentInfo 구조체 타입의 변수 2개를 선언
-	StudentInfo si1 = { 'O' ,20031128 ,3.5f };
-	StudentInfo si1 = { 'A' ,19961219 ,2.3f };
+	StudentInfo si1 = { 'O' ,20031128 ,3.5f }, si2 = { 'A' ,19961219 ,2.3f };
 
 	// 멤버의 값을 출력
 	cout << "학번 : " << si1.stdnumber << "\n";
